@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Momo+Trust+Display&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+    --grad-soulmove: linear-gradient(to right, #ED2F5D, #5312B0, #22139C);
+    --grad-soulup: linear-gradient(to right, #6B5CEC, #4A76F2, #27BCFB);
+    --grad-claro: linear-gradient(to bottom, #A9F2FF, #B5ADFF);
+    --cor-magica: #22139C;
+    --cor-escura: #000000;
+    --cor-clara: #ffffff;
+}
+
+body {
+    height: 100vh; /* TIRE DEPOIS PFV */
+    background-color: var(--cor-clara);
+    color: var(--cor-escura);
+}
+
+header {
+    background: var(--grad-soulmove);
+}
+
+.header_logo {
+    width: 15%;
+}
+
+.header_menu {
+    font-family: "Momo Trust Display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header_menu_link {
+    text-decoration: none;
+    color: var(--cor-clara);
+}
+
+
+
+footer {
+    background: var(--grad-soulup)
+}
