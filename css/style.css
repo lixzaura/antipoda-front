@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 :root {
@@ -20,28 +21,73 @@ body {
     background-color: var(--cor-clara);
     color: var(--cor-escura);
 }
-
 header {
     background: var(--grad-soulmove);
+    width: auto;
 }
 
-.header_logo {
-    width: 15%;
+.header-logo {
+   max-width: 100%;
 }
 
-.header_menu {
+.header-menu {
     font-family: "Momo Trust Display", sans-serif;
     font-weight: 400;
     font-style: normal;
+    
 }
 
-.header_menu_link {
+.header-menu-link {
     text-decoration: none;
     color: var(--cor-clara);
+    font-size: 15px;
 }
 
-
+.integrantes__h1{
+    display: none;
+}
 
 footer {
-    background: var(--grad-soulup)
+    background: var(--grad-soulup);
+    height: 6.35rem;
 }
+footer *{
+    display: none;
+}
+
+.integrante__nome{
+    font-size: 1.5rem;
+    color: var(--cor-magica);
+
+    font-family: "Momo Trust Display", sans-serif;
+    font-weight: 400;
+    
+}
+
+.integrante__rm{
+    font-size: 1.25rem;
+    color: var(--cor-magica);
+
+    font-family: "Momo Trust Display", sans-serif;
+    font-weight: 400;
+
+}
+
+.integrante-card{
+    background: var(--grad-claro);
+    border-radius: .5rem;
+
+    height: 33rem;
+    width: 22.5rem; 
+
+}
+
+
+.integrante-link__button{
+    background: var(--cor-magica);
+
+    height: 3.5rem;
+    width: 9rem;
+    border-radius: 1rem;
+}
+
